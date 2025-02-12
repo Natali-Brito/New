@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital@0;1&display=swap');
+
+body {
+    font-family: "Exo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(316deg, #523a78 0%, #cfc7f8 64%, #ffffff 85%) no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+}
+#master{
+    max-width: 600px;
+    margin: 0 auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container {
+    max-width: 550px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: -2px 1px 5px 5px rgba(255,255,255,0.4);
+}
+h2 {
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+label {
+    font-weight: 200;
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="date"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border-style: none; 
+    background: transparent; 
+    outline: none;
+    border-bottom: 2px solid #cfc7f8;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+button {
+    width: 10%;
+    padding: 3px;
+    border: none;
+    border-radius: 4px;
+}
+#save{
+    border:1px solid #45a049;
+}
+#cancel{
+    border: 1px solid #a04545;
+}
+button:hover {
+    background-color: #fff;
+    border: 1px solid #cfc7f8;
+}
+
+

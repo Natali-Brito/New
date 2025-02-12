@@ -1,0 +1,8 @@
+CREATE TABLE users (
+    id TEXT PRIMARY KEY UNIQUE NOT NULL,
+    nome VARCHAR(100) NOT NULL,  
+    email VARCHAR(100) UNIQUE NOT NULL,  
+    username TEXT NOT NULL UNIQUE,
+    password TEXT NOT NULL,
+    role TEXT NOT NULL
+);

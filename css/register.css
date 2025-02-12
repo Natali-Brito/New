@@ -1,0 +1,62 @@
+@import url("/css/styles.css");
+
+body{
+    background: #FAC67A;
+}
+
+#div-master-signup{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#div-box-signup{
+    background-color: #DA498D;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    justify-items: center;
+    align-content: center;
+}
+
+#div-form {
+    max-width: 500px;
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: -2px 1px 5px 5px rgba(255,255,255,0.4);
+}
+
+p{
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#login{
+    width: 80px;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+#login:hover{
+    border: 1px solid #DA498D;
+    background-color: #FFFFFF;
+    color: #DA498D;
+    font-weight: 400;
+}
+
+#cadastrar{
+    border:1px solid #45a049;
+}

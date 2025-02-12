@@ -1,0 +1,48 @@
+.menu-container {
+    position: relative;
+    margin-left:95%;
+    display: inline-block;
+    
+} 
+.menu-button {
+    background-color: #9068ec;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    left: -60px;
+    min-width: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.menu-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #9068ec;
+}
+.menu-content a:hover {
+    background-color: #9068ec;
+    color: #f1f1f1;
+}
+.show {
+    display: block;
+} 
+
+#nav:hover{
+    background-color: #fff;
+    border: 1px solid #cfc7f8;
+    fill: #9068ec;
+}
+
+#nav:hover svg{
+    fill: #9068ec;
+}
